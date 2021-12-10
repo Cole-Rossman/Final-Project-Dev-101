@@ -33,7 +33,7 @@ scissorsbutton.addEventListener('click', () => {
     const results = score(player, computer);
     console.log(computer, 'computer');
     console.log(player, 'player');
-    resultsEl.textContent = results;
+    resultsEl.textContent = 'results:' + results;
 });
 
   // get user input

@@ -1,11 +1,11 @@
 
 :root {
     --primary-background: #FFFFF4;
-    --chrome-background: #e3b574;
-    --chrome-background-opaque: #e3b574d1;
-    --secondary-background: #C9B39B;
-    --text-color: #32363F;
-    --accent-light: #ED8F11;
+    --chrome-background: #B4F8C8;
+    --chrome-background-opaque: #A0E7E5;
+    --secondary-background: #eb7d08;
+    --text-color: #4d76d4;
+    --accent-light: #ecad5a;
     --accent-dark: #C27A18;
     
     --gutter: 30px;
@@ -24,7 +24,6 @@ body {
 }
 
 
-
 header {
     display: flex;
     justify-content: flex-start;
@@ -35,8 +34,16 @@ header {
 
 main {
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
+span {
+    width: fit-content;
+    border: 10px solid green;
+    padding: 10px;
+    margin: auto;
+}
 
 footer {
     background-color: var(--chrome-background-opaque);
